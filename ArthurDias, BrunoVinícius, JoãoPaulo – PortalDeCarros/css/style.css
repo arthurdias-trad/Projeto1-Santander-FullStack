@@ -16,7 +16,6 @@ main {
 }
 
 footer {
-  background: var(--color-escuro);
   width: 100%;
   padding: 2rem 0;
   position: absolute;
