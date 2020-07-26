@@ -5,17 +5,15 @@
   --color-claro: #bcbcbc;
 }
 
-body {
+.tudo-menos-footer {
   background: linear-gradient(to top left, var(--color-claro) 50%, white 50%);
   font-family: "Open Sans", sans-serif;
-  min-height: 100vh;
+  min-height: calc(100vh - 80px);
 }
 
 footer {
   width: 100%;
-  padding: 2rem 0;
-  position: absolute;
-  bottom: 0;
+  padding: 1rem 0;
 }
 
 .footer {
@@ -62,23 +60,33 @@ nav {
     flex-direction: row;
     justify-content: space-between;
   }
+
+  .tudo-menos-footer {
+    min-height: calc(100vh - 88px);
+  }
 }
 
 /* Telas médias */
 @media (min-width: 768px) {
   .footer {
     font-size: 1.25rem;
+    padding: 1.25rem 0;
+  }
+
+  .tudo-menos-footer {
+    min-height: calc(100vh - 101.6px);
   }
 }
 
 /* Telas grandes */
 @media (min-width: 992px) {
-  body {
+  .tudo-menos-footer {
     background: linear-gradient(
       to top right,
       var(--color-claro) 50%,
       white 50%
     );
+    min-height: calc(100vh - 108px);
   }
 
   nav {
