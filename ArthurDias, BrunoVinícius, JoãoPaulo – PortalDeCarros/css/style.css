@@ -1,5 +1,5 @@
 :root {
-  --color-laranja: rgba(247, 76, 22, 0.83);
+  --color-laranja: rgba(247, 76, 22, 1);
   --color-escuro: #656565;
   --color-médio: #969696;
   --color-claro: #bcbcbc;
@@ -7,12 +7,8 @@
 
 body {
   background: linear-gradient(to top left, var(--color-claro) 50%, white 50%);
-  min-width: 100vw;
+  font-family: "Open Sans", sans-serif;
   min-height: 100vh;
-}
-
-main {
-  min-height: 80vh;
 }
 
 footer {
@@ -23,10 +19,13 @@ footer {
 }
 
 .footer {
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: var(--color-laranja);
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 nav {
@@ -35,6 +34,10 @@ nav {
 
 .navbar-center {
   margin: 0 auto;
+}
+
+.logo {
+  font-family: "Work Sans", sans-serif;
 }
 
 .bg-laranja {
@@ -53,6 +56,22 @@ nav {
   background: var(--color-claro);
 }
 
+/* Telas pequenas */
+@media (min-width: 576px) {
+  .footer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+/* Telas médias */
+@media (min-width: 768px) {
+  .footer {
+    font-size: 1.25rem;
+  }
+}
+
+/* Telas grandes */
 @media (min-width: 992px) {
   body {
     background: linear-gradient(
@@ -74,5 +93,9 @@ nav {
     width: 100%;
     display: flex;
     justify-content: space-around;
+  }
+
+  .footer {
+    font-size: 1.5rem;
   }
 }
