@@ -34,6 +34,24 @@ nav {
   margin: 0 auto;
 }
 
+.membro-equipe img {
+  border-radius: 50%;
+}
+
+.membro-equipe a {
+  text-decoration: none;
+  color: white;
+}
+
+.membro-equipe a:hover {
+  text-decoration: underline;
+  color: var(--color-laranja);
+}
+
+.contatos {
+  width: 100%;
+}
+
 .logo {
   font-family: "Work Sans", sans-serif;
 }
@@ -54,6 +72,22 @@ nav {
   background: var(--color-claro);
 }
 
+.texto-laranja {
+  color: var(--color-laranja);
+}
+
+.texto-escuro {
+  color: var(--color-escuro);
+}
+
+.texto-médio {
+  color: var(--color-médio);
+}
+
+.texto-claro {
+  color: var(--color-claro);
+}
+
 /* Telas pequenas */
 @media (min-width: 576px) {
   .footer {
@@ -63,6 +97,10 @@ nav {
 
   .tudo-menos-footer {
     min-height: calc(100vh - 88px);
+  }
+
+  .contatos {
+    width: 200px;
   }
 }
 
@@ -75,6 +113,10 @@ nav {
 
   .tudo-menos-footer {
     min-height: calc(100vh - 101.6px);
+  }
+
+  .membro-equipe:nth-child(odd) {
+    flex-direction: row-reverse;
   }
 }
 
