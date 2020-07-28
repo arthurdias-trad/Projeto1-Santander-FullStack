@@ -18,116 +18,386 @@
     <script src="./js/script.js"></script>
   </head>
   <body>
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-light navbar-transparent">
-        <div class="container">
-          <div class="navbar-center">
-            <a class="navbar-brand logo" href="#">Portal dos Carros</a>
+    <div class="tudo-menos-footer">
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light navbar-transparent">
+          <div class="container">
+            <div class="navbar-center">
+              <a class="navbar-brand logo" href="#">Portal dos Carros</a>
+            </div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">
+                  Home <span class="sr-only">(current)</span>
+                </a>
+                <a class="nav-item nav-link" href="#">Mídia</a>
+                <a class="nav-item nav-link" href="contato.html">Contato</a>
+              </div>
+            </div>
           </div>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
+        </nav>
+      </header>
+      <div class="container">
+        <main>
+          <section
+            class="bg-médio texto-white text-section text-center col-sm-12 col-lg-10"
           >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-item nav-link active" href="#">
-                Home <span class="sr-only">(current)</span>
-              </a>
-              <a class="nav-item nav-link" href="#">Mídia</a>
-              <a class="nav-item nav-link" href="contato.html">Contato</a>
+            <h1>Lorem</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+              consequat et eros et rutrum. Curabitur porttitor diam eu rhoncus
+              malesuada. Praesent laoreet eget urna id gravida. Aenean tortor
+              nunc, sagittis eu pulvinar sit amet, volutpat eget neque. Cras
+              ornare nibh nibh, eu ultrices augue hendrerit vitae. Nullam
+              maximus varius neque. Mauris accumsan viverra ligula ac rutrum.
+              Suspendisse quis nisi sit amet nisl feugiat iaculis. Etiam
+              vulputate ligula nec libero semper malesuada. Nam in dolor eu ex
+              pulvinar lobortis. Nam gravida hendrerit fermentum.
+            </p>
+            <span
+              class="more texto-laranja"
+              data-toggle="modal"
+              data-target="#modal1"
+              >Leia mais
+              <i class="fas fa-angle-double-right" aria-hidden="true"></i
+            ></span>
+          </section>
+          <section
+            class="bg-médio texto-white text-section text-center col-sm-12 col-lg-10"
+          >
+            <h1>Lorem ipsum</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+              consequat et eros et rutrum. Curabitur porttitor diam eu rhoncus
+              malesuada. Praesent laoreet eget urna id gravida. Aenean tortor
+              nunc, sagittis eu pulvinar sit amet, volutpat eget neque. Cras
+              ornare nibh nibh, eu ultrices augue hendrerit vitae. Nullam
+              maximus varius neque. Mauris accumsan viverra ligula ac rutrum.
+              Suspendisse quis nisi sit amet nisl feugiat iaculis. Etiam
+              vulputate ligula nec libero semper malesuada. Nam in dolor eu ex
+              pulvinar lobortis. Nam gravida hendrerit fermentum.
+            </p>
+            <span
+              class="more texto-laranja"
+              data-toggle="modal"
+              data-target="#modal2"
+              >Leia mais
+              <i class="fas fa-angle-double-right" aria-hidden="true"></i
+            ></span>
+          </section>
+          <section
+            class="bg-médio texto-white text-section text-center col-sm-12 col-lg-10"
+          >
+            <h1>Lorem ipsum dolor</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+              consequat et eros et rutrum. Curabitur porttitor diam eu rhoncus
+              malesuada. Praesent laoreet eget urna id gravida. Aenean tortor
+              nunc, sagittis eu pulvinar sit amet, volutpat eget neque. Cras
+              ornare nibh nibh, eu ultrices augue hendrerit vitae. Nullam
+              maximus varius neque. Mauris accumsan viverra ligula ac rutrum.
+              Suspendisse quis nisi sit amet nisl feugiat iaculis. Etiam
+              vulputate ligula nec libero semper malesuada. Nam in dolor eu ex
+              pulvinar lobortis. Nam gravida hendrerit fermentum.
+            </p>
+            <span
+              class="more texto-laranja"
+              data-toggle="modal"
+              data-target="#modal3"
+              >Leia mais
+              <i class="fas fa-angle-double-right" aria-hidden="true"></i
+            ></span>
+          </section>
+        </main>
+
+        <!-- Modal 1 -->
+        <div
+          class="modal fade"
+          id="modal1"
+          data-backdrop="static"
+          data-keyboard="false"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="staticBackdropLabel"
+          aria-hidden="true"
+        >
+          <div
+            class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg"
+          >
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Lorem</h5>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Vivamus ullamcorper sed libero nec pretium. Duis eu tempor
+                  diam, a egestas odio. Suspendisse auctor ullamcorper
+                  tincidunt. Vestibulum in porttitor orci, at semper nunc.
+                  Nullam efficitur aliquam ipsum vitae maximus. Aliquam pretium
+                  sem consectetur justo facilisis, in feugiat libero suscipit.
+                  Vivamus rutrum non libero id maximus. Morbi quis mattis ipsum,
+                  eu feugiat metus. Cras commodo felis eu dui sollicitudin
+                  iaculis. Mauris ullamcorper augue sit amet nulla iaculis
+                  ornare.
+                </p>
+                <p>
+                  Phasellus tellus justo, bibendum ut magna et, dapibus
+                  condimentum ante. Suspendisse rhoncus euismod tincidunt. Ut
+                  semper aliquet quam, eu tempus nibh pharetra nec. Quisque eu
+                  velit euismod, iaculis dolor eget, luctus est. Sed cursus
+                  ipsum eu sapien porta, non dapibus felis lacinia. Proin
+                  sodales et sapien at tempor. Aenean eget lobortis est. Etiam
+                  placerat, mauris placerat faucibus varius, elit magna vehicula
+                  massa, et consectetur velit lectus non libero. Aenean
+                  consectetur elit justo, eget varius sapien pharetra non.
+                  Vestibulum ante ipsum primis in faucibus orci luctus et
+                  ultrices posuere cubilia curae;
+                </p>
+                <p>
+                  Etiam et eros placerat orci rhoncus ultrices at feugiat velit.
+                  Praesent dapibus faucibus nunc, vel convallis elit ultricies
+                  sit amet. In ornare purus varius nibh lacinia molestie non vel
+                  velit. Morbi tincidunt pretium lacus. Praesent molestie mollis
+                  dui, non vulputate nisi interdum non. Morbi quis consectetur
+                  lorem. Mauris rutrum ligula neque. Nam mollis tempus metus, et
+                  pharetra massa. Nam vitae nulla pretium, faucibus urna nec,
+                  volutpat risus. Vestibulum ante ipsum primis in faucibus orci
+                  luctus et ultrices posuere cubilia curae; Quisque luctus
+                  ornare ante, ut facilisis nisl condimentum non. Etiam accumsan
+                  velit sed neque ultrices maximus. Donec in metus placerat nibh
+                  ornare semper fermentum eu odio. Donec in ligula vitae tellus
+                  sollicitudin elementum vitae sit amet ipsum. Curabitur
+                  ullamcorper, risus et facilisis egestas, quam mi blandit
+                  velit, ut tempor lorem enim sed velit.
+                </p>
+                <p>
+                  Ut et varius enim. Proin quis mauris aliquet, volutpat arcu
+                  pulvinar, finibus sapien. Quisque eleifend bibendum libero ac
+                  maximus. Pellentesque accumsan est a enim sodales pulvinar.
+                  Cras gravida nibh nec dictum ultricies. Lorem ipsum dolor sit
+                  amet, consectetur adipiscing elit. Sed aliquam lectus a
+                  interdum cursus. Curabitur purus enim, imperdiet sed viverra
+                  et, varius at nisi. Fusce rutrum quis lectus sit amet viverra.
+                  Mauris ac est elementum, porta leo vel, placerat velit.
+                  Phasellus porta urna urna, et volutpat mi fermentum a. In id
+                  accumsan lorem, ac lobortis elit. Maecenas aliquam velit eu
+                  tellus porta, nec bibendum nulla iaculis. Pellentesque non
+                  porttitor felis. Vivamus turpis neque, aliquam in volutpat ac,
+                  tempor quis arcu.
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </nav>
-    </header>
-    <div class="container">
-      <main>
-        <section class="bg-médio texto-white text-section text-center col-sm-12 col-lg-10">
-          <h1>Lorem</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consequat et eros et rutrum. Curabitur porttitor diam eu rhoncus malesuada. Praesent laoreet eget urna id gravida. Aenean tortor nunc, sagittis eu pulvinar sit amet, volutpat eget neque. Cras ornare nibh nibh, eu ultrices augue hendrerit vitae. Nullam maximus varius neque. Mauris accumsan viverra ligula ac rutrum. Suspendisse quis nisi sit amet nisl feugiat iaculis. Etiam vulputate ligula nec libero semper malesuada. Nam in dolor eu ex pulvinar lobortis. Nam gravida hendrerit fermentum.</p><span class="more texto-laranja" data-toggle="modal" data-target="#modal1">Leia mais <i class="fas fa-angle-double-right" aria-hidden="true"></i></span>
-        </section>
-        <section class="bg-médio texto-white text-section text-center col-sm-12 col-lg-10">
-          <h1>Lorem ipsum</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consequat et eros et rutrum. Curabitur porttitor diam eu rhoncus malesuada. Praesent laoreet eget urna id gravida. Aenean tortor nunc, sagittis eu pulvinar sit amet, volutpat eget neque. Cras ornare nibh nibh, eu ultrices augue hendrerit vitae. Nullam maximus varius neque. Mauris accumsan viverra ligula ac rutrum. Suspendisse quis nisi sit amet nisl feugiat iaculis. Etiam vulputate ligula nec libero semper malesuada. Nam in dolor eu ex pulvinar lobortis. Nam gravida hendrerit fermentum.</p><span class="more texto-laranja" data-toggle="modal" data-target="#modal2">Leia mais <i class="fas fa-angle-double-right" aria-hidden="true"></i></span>
-        </section>
-        <section class="bg-médio texto-white text-section text-center col-sm-12 col-lg-10">
-          <h1>Lorem ipsum dolor</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consequat et eros et rutrum. Curabitur porttitor diam eu rhoncus malesuada. Praesent laoreet eget urna id gravida. Aenean tortor nunc, sagittis eu pulvinar sit amet, volutpat eget neque. Cras ornare nibh nibh, eu ultrices augue hendrerit vitae. Nullam maximus varius neque. Mauris accumsan viverra ligula ac rutrum. Suspendisse quis nisi sit amet nisl feugiat iaculis. Etiam vulputate ligula nec libero semper malesuada. Nam in dolor eu ex pulvinar lobortis. Nam gravida hendrerit fermentum.</p><span class="more texto-laranja" data-toggle="modal" data-target="#modal3">Leia mais <i class="fas fa-angle-double-right" aria-hidden="true"></i></span>
-        </section>
-      </main>
-    </div>
-      <!-- Modal 1 -->
-      <div class="modal fade" id="modal1" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="staticBackdropLabel">Lorem</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ullamcorper sed libero nec pretium. Duis eu tempor diam, a egestas odio. Suspendisse auctor ullamcorper tincidunt. Vestibulum in porttitor orci, at semper nunc. Nullam efficitur aliquam ipsum vitae maximus. Aliquam pretium sem consectetur justo facilisis, in feugiat libero suscipit. Vivamus rutrum non libero id maximus. Morbi quis mattis ipsum, eu feugiat metus. Cras commodo felis eu dui sollicitudin iaculis. Mauris ullamcorper augue sit amet nulla iaculis ornare.</p>
-              <p>Phasellus tellus justo, bibendum ut magna et, dapibus condimentum ante. Suspendisse rhoncus euismod tincidunt. Ut semper aliquet quam, eu tempus nibh pharetra nec. Quisque eu velit euismod, iaculis dolor eget, luctus est. Sed cursus ipsum eu sapien porta, non dapibus felis lacinia. Proin sodales et sapien at tempor. Aenean eget lobortis est. Etiam placerat, mauris placerat faucibus varius, elit magna vehicula massa, et consectetur velit lectus non libero. Aenean consectetur elit justo, eget varius sapien pharetra non. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;</p>
-              <p>Etiam et eros placerat orci rhoncus ultrices at feugiat velit. Praesent dapibus faucibus nunc, vel convallis elit ultricies sit amet. In ornare purus varius nibh lacinia molestie non vel velit. Morbi tincidunt pretium lacus. Praesent molestie mollis dui, non vulputate nisi interdum non. Morbi quis consectetur lorem. Mauris rutrum ligula neque. Nam mollis tempus metus, et pharetra massa. Nam vitae nulla pretium, faucibus urna nec, volutpat risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque luctus ornare ante, ut facilisis nisl condimentum non. Etiam accumsan velit sed neque ultrices maximus. Donec in metus placerat nibh ornare semper fermentum eu odio. Donec in ligula vitae tellus sollicitudin elementum vitae sit amet ipsum. Curabitur ullamcorper, risus et facilisis egestas, quam mi blandit velit, ut tempor lorem enim sed velit.</p>
-              <p>Ut et varius enim. Proin quis mauris aliquet, volutpat arcu pulvinar, finibus sapien. Quisque eleifend bibendum libero ac maximus. Pellentesque accumsan est a enim sodales pulvinar. Cras gravida nibh nec dictum ultricies. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam lectus a interdum cursus. Curabitur purus enim, imperdiet sed viverra et, varius at nisi. Fusce rutrum quis lectus sit amet viverra. Mauris ac est elementum, porta leo vel, placerat velit. Phasellus porta urna urna, et volutpat mi fermentum a. In id accumsan lorem, ac lobortis elit. Maecenas aliquam velit eu tellus porta, nec bibendum nulla iaculis. Pellentesque non porttitor felis. Vivamus turpis neque, aliquam in volutpat ac, tempor quis arcu.</p>
+        <!-- Modal 2 -->
+        <div
+          class="modal fade"
+          id="modal2"
+          data-backdrop="static"
+          data-keyboard="false"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="staticBackdropLabel"
+          aria-hidden="true"
+        >
+          <div
+            class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg"
+          >
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">
+                  Lorem ipsum
+                </h5>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Vivamus ullamcorper sed libero nec pretium. Duis eu tempor
+                  diam, a egestas odio. Suspendisse auctor ullamcorper
+                  tincidunt. Vestibulum in porttitor orci, at semper nunc.
+                  Nullam efficitur aliquam ipsum vitae maximus. Aliquam pretium
+                  sem consectetur justo facilisis, in feugiat libero suscipit.
+                  Vivamus rutrum non libero id maximus. Morbi quis mattis ipsum,
+                  eu feugiat metus. Cras commodo felis eu dui sollicitudin
+                  iaculis. Mauris ullamcorper augue sit amet nulla iaculis
+                  ornare.
+                </p>
+                <p>
+                  Phasellus tellus justo, bibendum ut magna et, dapibus
+                  condimentum ante. Suspendisse rhoncus euismod tincidunt. Ut
+                  semper aliquet quam, eu tempus nibh pharetra nec. Quisque eu
+                  velit euismod, iaculis dolor eget, luctus est. Sed cursus
+                  ipsum eu sapien porta, non dapibus felis lacinia. Proin
+                  sodales et sapien at tempor. Aenean eget lobortis est. Etiam
+                  placerat, mauris placerat faucibus varius, elit magna vehicula
+                  massa, et consectetur velit lectus non libero. Aenean
+                  consectetur elit justo, eget varius sapien pharetra non.
+                  Vestibulum ante ipsum primis in faucibus orci luctus et
+                  ultrices posuere cubilia curae;
+                </p>
+                <p>
+                  Etiam et eros placerat orci rhoncus ultrices at feugiat velit.
+                  Praesent dapibus faucibus nunc, vel convallis elit ultricies
+                  sit amet. In ornare purus varius nibh lacinia molestie non vel
+                  velit. Morbi tincidunt pretium lacus. Praesent molestie mollis
+                  dui, non vulputate nisi interdum non. Morbi quis consectetur
+                  lorem. Mauris rutrum ligula neque. Nam mollis tempus metus, et
+                  pharetra massa. Nam vitae nulla pretium, faucibus urna nec,
+                  volutpat risus. Vestibulum ante ipsum primis in faucibus orci
+                  luctus et ultrices posuere cubilia curae; Quisque luctus
+                  ornare ante, ut facilisis nisl condimentum non. Etiam accumsan
+                  velit sed neque ultrices maximus. Donec in metus placerat nibh
+                  ornare semper fermentum eu odio. Donec in ligula vitae tellus
+                  sollicitudin elementum vitae sit amet ipsum. Curabitur
+                  ullamcorper, risus et facilisis egestas, quam mi blandit
+                  velit, ut tempor lorem enim sed velit.
+                </p>
+                <p>
+                  Ut et varius enim. Proin quis mauris aliquet, volutpat arcu
+                  pulvinar, finibus sapien. Quisque eleifend bibendum libero ac
+                  maximus. Pellentesque accumsan est a enim sodales pulvinar.
+                  Cras gravida nibh nec dictum ultricies. Lorem ipsum dolor sit
+                  amet, consectetur adipiscing elit. Sed aliquam lectus a
+                  interdum cursus. Curabitur purus enim, imperdiet sed viverra
+                  et, varius at nisi. Fusce rutrum quis lectus sit amet viverra.
+                  Mauris ac est elementum, porta leo vel, placerat velit.
+                  Phasellus porta urna urna, et volutpat mi fermentum a. In id
+                  accumsan lorem, ac lobortis elit. Maecenas aliquam velit eu
+                  tellus porta, nec bibendum nulla iaculis. Pellentesque non
+                  porttitor felis. Vivamus turpis neque, aliquam in volutpat ac,
+                  tempor quis arcu.
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-          <!-- Modal 2 -->
-      <div class="modal fade" id="modal2" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="staticBackdropLabel">Lorem ipsum</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ullamcorper sed libero nec pretium. Duis eu tempor diam, a egestas odio. Suspendisse auctor ullamcorper tincidunt. Vestibulum in porttitor orci, at semper nunc. Nullam efficitur aliquam ipsum vitae maximus. Aliquam pretium sem consectetur justo facilisis, in feugiat libero suscipit. Vivamus rutrum non libero id maximus. Morbi quis mattis ipsum, eu feugiat metus. Cras commodo felis eu dui sollicitudin iaculis. Mauris ullamcorper augue sit amet nulla iaculis ornare.</p>
-              <p>Phasellus tellus justo, bibendum ut magna et, dapibus condimentum ante. Suspendisse rhoncus euismod tincidunt. Ut semper aliquet quam, eu tempus nibh pharetra nec. Quisque eu velit euismod, iaculis dolor eget, luctus est. Sed cursus ipsum eu sapien porta, non dapibus felis lacinia. Proin sodales et sapien at tempor. Aenean eget lobortis est. Etiam placerat, mauris placerat faucibus varius, elit magna vehicula massa, et consectetur velit lectus non libero. Aenean consectetur elit justo, eget varius sapien pharetra non. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;</p>
-              <p>Etiam et eros placerat orci rhoncus ultrices at feugiat velit. Praesent dapibus faucibus nunc, vel convallis elit ultricies sit amet. In ornare purus varius nibh lacinia molestie non vel velit. Morbi tincidunt pretium lacus. Praesent molestie mollis dui, non vulputate nisi interdum non. Morbi quis consectetur lorem. Mauris rutrum ligula neque. Nam mollis tempus metus, et pharetra massa. Nam vitae nulla pretium, faucibus urna nec, volutpat risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque luctus ornare ante, ut facilisis nisl condimentum non. Etiam accumsan velit sed neque ultrices maximus. Donec in metus placerat nibh ornare semper fermentum eu odio. Donec in ligula vitae tellus sollicitudin elementum vitae sit amet ipsum. Curabitur ullamcorper, risus et facilisis egestas, quam mi blandit velit, ut tempor lorem enim sed velit.</p>
-              <p>Ut et varius enim. Proin quis mauris aliquet, volutpat arcu pulvinar, finibus sapien. Quisque eleifend bibendum libero ac maximus. Pellentesque accumsan est a enim sodales pulvinar. Cras gravida nibh nec dictum ultricies. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam lectus a interdum cursus. Curabitur purus enim, imperdiet sed viverra et, varius at nisi. Fusce rutrum quis lectus sit amet viverra. Mauris ac est elementum, porta leo vel, placerat velit. Phasellus porta urna urna, et volutpat mi fermentum a. In id accumsan lorem, ac lobortis elit. Maecenas aliquam velit eu tellus porta, nec bibendum nulla iaculis. Pellentesque non porttitor felis. Vivamus turpis neque, aliquam in volutpat ac, tempor quis arcu.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
       <!-- Modal 3 -->
-      <div class="modal fade" id="modal3" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+      <div
+        class="modal fade"
+        id="modal3"
+        data-backdrop="static"
+        data-keyboard="false"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="staticBackdropLabel"
+        aria-hidden="true"
+      >
+        <div
+          class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg"
+        >
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="staticBackdropLabel">Lorem ipsum dolor</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <h5 class="modal-title" id="staticBackdropLabel">
+                Lorem ipsum dolor
+              </h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ullamcorper sed libero nec pretium. Duis eu tempor diam, a egestas odio. Suspendisse auctor ullamcorper tincidunt. Vestibulum in porttitor orci, at semper nunc. Nullam efficitur aliquam ipsum vitae maximus. Aliquam pretium sem consectetur justo facilisis, in feugiat libero suscipit. Vivamus rutrum non libero id maximus. Morbi quis mattis ipsum, eu feugiat metus. Cras commodo felis eu dui sollicitudin iaculis. Mauris ullamcorper augue sit amet nulla iaculis ornare.</p>
-              <p>Phasellus tellus justo, bibendum ut magna et, dapibus condimentum ante. Suspendisse rhoncus euismod tincidunt. Ut semper aliquet quam, eu tempus nibh pharetra nec. Quisque eu velit euismod, iaculis dolor eget, luctus est. Sed cursus ipsum eu sapien porta, non dapibus felis lacinia. Proin sodales et sapien at tempor. Aenean eget lobortis est. Etiam placerat, mauris placerat faucibus varius, elit magna vehicula massa, et consectetur velit lectus non libero. Aenean consectetur elit justo, eget varius sapien pharetra non. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;</p>
-              <p>Etiam et eros placerat orci rhoncus ultrices at feugiat velit. Praesent dapibus faucibus nunc, vel convallis elit ultricies sit amet. In ornare purus varius nibh lacinia molestie non vel velit. Morbi tincidunt pretium lacus. Praesent molestie mollis dui, non vulputate nisi interdum non. Morbi quis consectetur lorem. Mauris rutrum ligula neque. Nam mollis tempus metus, et pharetra massa. Nam vitae nulla pretium, faucibus urna nec, volutpat risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque luctus ornare ante, ut facilisis nisl condimentum non. Etiam accumsan velit sed neque ultrices maximus. Donec in metus placerat nibh ornare semper fermentum eu odio. Donec in ligula vitae tellus sollicitudin elementum vitae sit amet ipsum. Curabitur ullamcorper, risus et facilisis egestas, quam mi blandit velit, ut tempor lorem enim sed velit.</p>
-              <p>Ut et varius enim. Proin quis mauris aliquet, volutpat arcu pulvinar, finibus sapien. Quisque eleifend bibendum libero ac maximus. Pellentesque accumsan est a enim sodales pulvinar. Cras gravida nibh nec dictum ultricies. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam lectus a interdum cursus. Curabitur purus enim, imperdiet sed viverra et, varius at nisi. Fusce rutrum quis lectus sit amet viverra. Mauris ac est elementum, porta leo vel, placerat velit. Phasellus porta urna urna, et volutpat mi fermentum a. In id accumsan lorem, ac lobortis elit. Maecenas aliquam velit eu tellus porta, nec bibendum nulla iaculis. Pellentesque non porttitor felis. Vivamus turpis neque, aliquam in volutpat ac, tempor quis arcu.</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                ullamcorper sed libero nec pretium. Duis eu tempor diam, a
+                egestas odio. Suspendisse auctor ullamcorper tincidunt.
+                Vestibulum in porttitor orci, at semper nunc. Nullam efficitur
+                aliquam ipsum vitae maximus. Aliquam pretium sem consectetur
+                justo facilisis, in feugiat libero suscipit. Vivamus rutrum non
+                libero id maximus. Morbi quis mattis ipsum, eu feugiat metus.
+                Cras commodo felis eu dui sollicitudin iaculis. Mauris
+                ullamcorper augue sit amet nulla iaculis ornare.
+              </p>
+              <p>
+                Phasellus tellus justo, bibendum ut magna et, dapibus
+                condimentum ante. Suspendisse rhoncus euismod tincidunt. Ut
+                semper aliquet quam, eu tempus nibh pharetra nec. Quisque eu
+                velit euismod, iaculis dolor eget, luctus est. Sed cursus ipsum
+                eu sapien porta, non dapibus felis lacinia. Proin sodales et
+                sapien at tempor. Aenean eget lobortis est. Etiam placerat,
+                mauris placerat faucibus varius, elit magna vehicula massa, et
+                consectetur velit lectus non libero. Aenean consectetur elit
+                justo, eget varius sapien pharetra non. Vestibulum ante ipsum
+                primis in faucibus orci luctus et ultrices posuere cubilia
+                curae;
+              </p>
+              <p>
+                Etiam et eros placerat orci rhoncus ultrices at feugiat velit.
+                Praesent dapibus faucibus nunc, vel convallis elit ultricies sit
+                amet. In ornare purus varius nibh lacinia molestie non vel
+                velit. Morbi tincidunt pretium lacus. Praesent molestie mollis
+                dui, non vulputate nisi interdum non. Morbi quis consectetur
+                lorem. Mauris rutrum ligula neque. Nam mollis tempus metus, et
+                pharetra massa. Nam vitae nulla pretium, faucibus urna nec,
+                volutpat risus. Vestibulum ante ipsum primis in faucibus orci
+                luctus et ultrices posuere cubilia curae; Quisque luctus ornare
+                ante, ut facilisis nisl condimentum non. Etiam accumsan velit
+                sed neque ultrices maximus. Donec in metus placerat nibh ornare
+                semper fermentum eu odio. Donec in ligula vitae tellus
+                sollicitudin elementum vitae sit amet ipsum. Curabitur
+                ullamcorper, risus et facilisis egestas, quam mi blandit velit,
+                ut tempor lorem enim sed velit.
+              </p>
+              <p>
+                Ut et varius enim. Proin quis mauris aliquet, volutpat arcu
+                pulvinar, finibus sapien. Quisque eleifend bibendum libero ac
+                maximus. Pellentesque accumsan est a enim sodales pulvinar. Cras
+                gravida nibh nec dictum ultricies. Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit. Sed aliquam lectus a interdum
+                cursus. Curabitur purus enim, imperdiet sed viverra et, varius
+                at nisi. Fusce rutrum quis lectus sit amet viverra. Mauris ac
+                est elementum, porta leo vel, placerat velit. Phasellus porta
+                urna urna, et volutpat mi fermentum a. In id accumsan lorem, ac
+                lobortis elit. Maecenas aliquam velit eu tellus porta, nec
+                bibendum nulla iaculis. Pellentesque non porttitor felis.
+                Vivamus turpis neque, aliquam in volutpat ac, tempor quis arcu.
+              </p>
             </div>
           </div>
         </div>
       </div>
+    </div>
     <footer class="bg-escuro">
       <div class="container footer">
         <div class="footer-logo">
           Portal dos Carros
         </div>
         <div class="footer-copyright">
-          Design By: <a href="./contato.html#arthur">@Arthur</a>, <a href="./contato.html#bruno">@Bruno</a>, <a href="./contato.html#joao">@João</a>
+          Design By: <a href="./contato.html#arthur">@Arthur</a>,
+          <a href="./contato.html#bruno">@Bruno</a>,
+          <a href="./contato.html#joao">@João</a>
         </div>
       </div>
     </footer>
