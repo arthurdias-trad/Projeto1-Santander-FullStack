@@ -1,9 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 :root {
-  --color-laranja: rgba(247, 76, 22, 1);
+  --color-laranja: rgba(246, 76, 22, 0.83);
   --color-escuro: #656565;
   --color-médio: #969696;
   --color-claro: #bcbcbc;
+  --color-white: #f8f8f8;
 }
+
+
+body {
+  background: linear-gradient(to top left, var(--color-claro) 50%, var(--color-white) 50%);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
+
 
 .tudo-menos-footer {
   background: linear-gradient(to top left, var(--color-claro) 50%, white 50%);
@@ -26,12 +38,14 @@ footer {
   text-align: center;
 }
 
+
 nav {
-  border-bottom: solid 1px var(--color-laranja);
+  color: var(--color-medio);
 }
 
-.navbar-center {
-  margin: 0 auto;
+.navbar-toggler, .navbar-toggler:focus {
+  border: none;
+  outline: none;
 }
 
 .membro-equipe img {
@@ -83,6 +97,71 @@ form .btns > input {
 .bg-claro {
   background: var(--color-claro);
 }
+
+
+.texto-white {
+  color: var(--color-white);
+}
+
+.navbar-center {
+  margin: 0 auto;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main h1 {
+  margin-top: 20px;
+  color: var(--color-laranja);
+}
+
+.text-section {
+  border-radius: 5px;
+  box-shadow: 0 0 4px .5px rgba(0, 0, 0, 0.5);
+  margin-top: 60px;
+}
+
+.text-section:last-child {
+  margin-bottom: 40px;
+}
+
+.more {
+  cursor: pointer;
+}
+
+.modal-content {
+  background-color: var(--color-médio);
+  color: var(--color-white);
+}
+
+.modal-header, .modal-header button {
+  color: var(--color-laranja);
+}
+
+footer {
+  width: 100%;
+  padding: 1rem 0;
+  bottom: 0;
+}
+
+.footer {
+  font-size: 1rem;
+  color: var(--color-laranja);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.footer a,
+.footer a:hover,
+.footer a:visited {
+  color: var(--color-laranja);
+  text-decoration: none;
 
 .texto-laranja {
   color: var(--color-laranja);
@@ -137,8 +216,7 @@ form .btns > input {
   .tudo-menos-footer {
     background: linear-gradient(
       to top right,
-      var(--color-claro) 50%,
-      white 50%
+      var(--color-claro) 50%, 50%, var(--color-white) 50%
     );
     min-height: calc(100vh - 108px);
   }
@@ -157,8 +235,17 @@ form .btns > input {
     justify-content: space-around;
   }
 
+  .active {
+    border-bottom: 1.5px solid var(--color-laranja);
+    color: var(--color-médio) !important;
+  }
+
+  footer {
+    position: absolute;
+  }
+
   .footer {
-    font-size: 1.5rem;
+    font-size: 0.85rem;
   }
 
   .membro-equipe img {
