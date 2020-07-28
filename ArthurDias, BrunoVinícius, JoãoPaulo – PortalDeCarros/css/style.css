@@ -8,12 +8,36 @@
   --color-white: #f8f8f8;
 }
 
+
 body {
   background: linear-gradient(to top left, var(--color-claro) 50%, var(--color-white) 50%);
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   min-height: 100vh;
 }
+
+
+.tudo-menos-footer {
+  background: linear-gradient(to top left, var(--color-claro) 50%, white 50%);
+  font-family: "Open Sans", sans-serif;
+  min-height: calc(100vh - 80px);
+}
+
+footer {
+  width: 100%;
+  padding: 1rem 0;
+}
+
+.footer {
+  font-size: 1rem;
+  color: var(--color-laranja);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 
 nav {
   color: var(--color-medio);
@@ -22,6 +46,36 @@ nav {
 .navbar-toggler, .navbar-toggler:focus {
   border: none;
   outline: none;
+}
+
+.membro-equipe img {
+  border-radius: 50%;
+  width: 175px;
+}
+
+.membro-equipe a {
+  text-decoration: none;
+  color: white;
+}
+
+.membro-equipe a:hover {
+  text-decoration: underline;
+  color: var(--color-laranja);
+}
+
+.contatos {
+  width: 100%;
+}
+
+form {
+  padding: 2rem 3rem;
+  border: 1px solid var(--color-laranja);
+  border-radius: 5px;
+}
+
+form .btns > input {
+  color: white;
+  background: var(--color-laranja);
 }
 
 .logo {
@@ -43,6 +97,7 @@ nav {
 .bg-claro {
   background: var(--color-claro);
 }
+
 
 .texto-white {
   color: var(--color-white);
@@ -107,6 +162,21 @@ footer {
 .footer a:visited {
   color: var(--color-laranja);
   text-decoration: none;
+
+.texto-laranja {
+  color: var(--color-laranja);
+}
+
+.texto-escuro {
+  color: var(--color-escuro);
+}
+
+.texto-médio {
+  color: var(--color-médio);
+}
+
+.texto-claro {
+  color: var(--color-claro);
 }
 
 /* Telas pequenas */
@@ -115,22 +185,40 @@ footer {
     flex-direction: row;
     justify-content: space-between;
   }
+
+  .tudo-menos-footer {
+    min-height: calc(100vh - 88px);
+  }
+
+  .contatos {
+    width: 200px;
+  }
 }
 
 /* Telas médias */
 @media (min-width: 768px) {
   .footer {
     font-size: 1.25rem;
+    padding: 1.25rem 0;
+  }
+
+  .tudo-menos-footer {
+    min-height: calc(100vh - 101.6px);
+  }
+
+  .membro-equipe:nth-child(odd) {
+    flex-direction: row-reverse;
   }
 }
 
 /* Telas grandes */
 @media (min-width: 992px) {
-  body {
+  .tudo-menos-footer {
     background: linear-gradient(
       to top right,
       var(--color-claro) 50%, 50%, var(--color-white) 50%
     );
+    min-height: calc(100vh - 108px);
   }
 
   nav {
@@ -158,5 +246,9 @@ footer {
 
   .footer {
     font-size: 0.85rem;
+  }
+
+  .membro-equipe img {
+    width: 50%;
   }
 }
