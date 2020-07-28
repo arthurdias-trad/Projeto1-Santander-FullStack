@@ -248,7 +248,7 @@ footer {
     justify-content: space-around;
   }
 
-  .active {
+  nav .active {
     border-bottom: 1.5px solid var(--color-laranja);
     color: var(--color-médio) !important;
   }
