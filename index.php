@@ -1,0 +1,1 @@
+<?php header( 'Location: ./ArthurDias, BrunoVinícius, JoãoPaulo – PortalDeCarros/index.html' ) ;  ?>
