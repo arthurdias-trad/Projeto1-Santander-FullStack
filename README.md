@@ -13,3 +13,7 @@
 * O site deve ser responsivo e mobile first
 * Usar tags semânticas
 * Todas as páginas devem ter header e footer
+
+### Versão de demonstração
+
+Acesse uma versão live do site [aqui](https://portal-dos-carros.herokuapp.com/).
